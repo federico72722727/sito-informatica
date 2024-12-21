@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trimester Topics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #1f2022, #4b4b4b);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            background-color: #2e2f31; 
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        .back-button {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            text-decoration: none;
+            color: #ddd;
+            background-color: #444;
+            padding: 8px 15px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: background 0.3s;
+        }
+        .back-button:hover {
+            background-color: #5a5a5a;
+        }
+        .content {
+            margin: 20px;
+            padding: 30px;
+            background-color: #3b3b3b;
+            border-radius: 10px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+            max-width: 800px;
+            text-align: left;
+        }
+        .content ul {
+            padding: 0;
+            list-style: none;
+        }
+        .content li {
+            background: #555;
+            margin: 10px 0;
+            padding: 12px 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .content li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+        }
+        .content li::before {
+            content: "🔹";
+            font-size: 1.2rem;
+        }
+        a {
+            color: #76c7c0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="back-button">
+            &#8592; Indietro
+        </a>
+        <h1>Trimestre</h1>
+    </div>
+    <div class="content">
+        <ul>
+            <li>Vettore o array è uno strumento, o meglio un oggetto, che permette di aggregare dati omogenei per poterli facilmente elaborare, cioè memorizzare, ritrovare e manipolare. Idealmente, l’array è costituito da tante variabili semplici “affiancate” tra loro, con una caratteristica comune: devono essere tutte dello stesso tipo.</li>
+            <li>La ricerca lineare è il metodo più semplice per trovare un elemento in un array o in una lista, si scansionano uno alla volta tutti gli elementi dell'array partendo dal primo, dopo si confronta ciascun elemento con quello da cercare nel caso si trova una corrispondenza, si termina la ricerca restituendo l'indice o il valore, Se l'elemento non è presente, si conclude la ricerca senza successo. </li>
+            <li>Bubble Sort è un algoritmo di ordinamento semplice che ordina un array confrontando e scambiando coppie adiacenti di elementi, si confrontano due elementi adiacenti se l'elemento a sinistra è maggiore di quello a destra, vengono scambiati. Questo processo viene ripetuto più volte fino a che l'array è completamente ordinato.</li>
+            <li>l Selection Sort ordina l'array selezionando ripetutamente il valore più piccolo e spostandolo alla posizione corretta, trova il valore minimo nell'array e scambialo con l'elemento in prima posizione ripete il processo per la sotto-lista rimanente, continuando finquando l'array non è ordinato. </li>
+            <li>Il Quick Sort è un algoritmo di ordinamento divide et impera che funziona dividendo l'array in sotto-array più piccoli e poi ordinandoli ricorsivamente. </li>
+            <li>La OOP è un paradigma di programmazione basato su oggetti, che permette di organizzare il codice in modo più modulare e riutilizzabile.  <a href="https://padlet.com/mariopalermo/oop-vpgn67wsmu516e4o" target="_blank">Power point svolto da mario palermo e il suo gruppo che spiega gli oop</a></li>
+            <li>Una classe è un "modello" o "prototipo" che definisce:Attributi (dati o proprietà) dell'oggetto, Metodi (funzioni) che possono essere eseguite sull'oggetto. </li>
+            <li>Un oggetto è un'istanza di una classe, cioè un elemento concreto creato sulla base della classe.</li>
+        </ul>
+    </div>
+</body>
+</html>
